@@ -8,7 +8,7 @@ var destroy = require('destroy');
 // make Stream globally visible so we can clean up better
 var stream;
 
-var DEFAULT_TOPIC = "testing Bieber";
+var DEFAULT_TOPIC = "Donald Trump";
 
 // defensiveness against errors parsing request bodies...
 process.on('uncaughtException', function (err) {
